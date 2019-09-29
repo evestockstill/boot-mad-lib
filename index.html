@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+    <title>mad-lib</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Pick Your Words and Create a Story</h1>
+    </header>
+    <main id="main">
+        <input type="text" class="input-1" id="noun-1" placeholder="Noun" />
+        <input type="text" class="input" id="action-verb" placeholder="Action Verb" />
+        <input type="text" class="input-1" id="noun-2" placeholder="Plural Noun" />
+        <input type="text" class="input" id="noun-3" placeholder="Plural Noun" />
+        <input type="text" class="input-1" id="adjective-1" placeholder="Adjective" />
+        <input type="text" class="input-1" id="adverb-1" placeholder="Adverb" />
+        <input type="text" class="input" id="adjective-3" placeholder="Adjective (ly)" />
+        <input type="text" class="input-1" id="adjective-4" placeholder="Adjective" />
+        <input type="text" class="input" id="adverb-2" placeholder="Adverb" />
+        <input type="text" class="input" id="noun-6" placeholder="Noun" />
+    </main>
+    <p id="story" class="hidden">
+        I use to be a <span id="noun1S"></span> behind a bar
+        <span id="actionVerbS"></span> drinks.<br />
+        I would have to listen to <span id="noun2S"></span> tell their life story.
+        <br />Sometimes the <span id="noun3S"></span> would get too
+        <span id="adjective1S"></span> and I would have to stop serving them
+        drinks. <br /> Now I am hoping to have a <span id="adverb1S"></span> time
+        behind a computer <span id="adjective3S"></span> coding away. <br /> While
+        the computer may be a <span id="adjective4S"></span> at least it's not a
+        <span id="adverb2S"></span> drunk <span id="noun6S"></span>!
+    </p>
+    <button class="btn" onclick="makeStory()">Make Story</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
